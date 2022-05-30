@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lista de tarefas.lapa</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <h1>
         lista de tarefas:
     </h1>
-        <div class="new-task-container">
-            <input type="text" class="new-task-input" placeholder="tarefa">
-            <button class="new-tesk-button">
-                adicionar
-            </button>
-        </div>
+    <input type="text" id="input" placeholder="Escreva...">
+    <button onclick="add()" id="addButton">Adicionar</button>
+    <fieldset>
+        <legend>Tarefas:</legend>
+        <ul id="lista">
+            
 
-        <div class="task-container"></div>
+
+        </ul>
+        <button onclick="window.location.reload()">Remover</button>
+    </fieldset>
     </div>
-   
-        
-    <script src="java.js"></script>
+    <script src="script.js"></script>
+</body>
 </body>
 </html>

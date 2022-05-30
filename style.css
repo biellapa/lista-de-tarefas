@@ -1,23 +1,119 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+#input{
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+    border: black;
+    border-radius: 4px;
+    margin: 3px;
 }
 body{
-    background-image: url("image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 20%;
-    text-align: center;
+    background-image: url(https://1.bp.blogspot.com/-lUKa4FNac1M/ThtfJcOwrQI/AAAAAAAACf0/Vg8_Bd8Kv2Q/s1600/lago-com-agua-cristalina-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg);
+    display: grid;
+    place-items: center;
+}
+#addButton {
+    margin: 3px;
+    background-color: green;
+    border: solid green;
+    border-radius: 10px;
+    padding: 4px;
+}
+#lista{
+    color: rgb(255, 255, 255);
+}
+legend {
+    font-size: 20px;
+}
+label {
+    font-size: 30px;
+}
+.checked {
+    text-decoration: line-through;
+    color: black;
+}
+div{
+    padding: 13px;
+    background-color: rgba(0, 128, 0, 0.521);
+}
+#lista {
+    list-style-type: symbols();
+    padding:4vh;
+    height: 50vh;
+    overflow-y: auto;
+}
+button {
+    background-color: rgba(0, 0, 255, 0.5);
+    border: rgba(0, 0, 255, 0.5) 1px solid;
+    padding: 2px;
+    margin: 3px;
+    font-size: 2vh;
 }
 
-
-.task-container input{
-    flex: 3;
-    font-size: 1rem;
-    border: 2px solid #d1d3d4;
-    border-radius: 5px;
-    padding: 12px;
-    font-weight: 500;
-
-}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(68, 168, 255);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        top: 50%;
+        background-position: center;
+    
+    }
+    * {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    #input{
+        background-color: rgb(0, 183, 255);
+        color: white;
+        border: rgb(0, 162, 255);
+        border-radius: 4px;
+        margin: 3px;
+    }
+    body{
+        background-image: url(image.jpg);
+        display: grid;
+        place-items: center;
+    }
+    #addButton {
+        margin: 3px;
+        background-color: rgb(0, 153, 255);
+        border: solid rgb(255, 0, 0);
+        border-radius: 10px;
+        padding: 4px;
+    }
+    #lista{
+        color: rgb(255, 255, 255);
+    }
+    legend {
+        font-size: 20px;
+    }
+    label {
+        font-size: 30px;
+    }
+    .checked {
+        text-decoration: line-through;
+        color: black;
+    }
+    div{
+        padding: 13px;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    #lista {
+        list-style-type: symbols();
+        padding:4vh;
+        height: 50vh;
+        overflow-y: auto;
+    }
+    button {
+        background-color: rgb(56, 255, 16);
+        border: rgb(0, 81, 255) 1px solid;
+        padding: 2px;
+        margin: 3px;
+        font-size: 2vh;
+    }
+    
+    
+    
