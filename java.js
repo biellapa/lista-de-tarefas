@@ -2,6 +2,16 @@ const input = document.getElementById("input")
 const lista = document.getElementById("lista")
 const tarefas = []
 
+document.addEventListener('click', (e) => {
+    console.log(e)
+})
+
+document.addEventListener('keypress', (e) => {
+    if(e.key === "Enter") {
+        add()
+    }
+})
+
 function add() {
     if(input.value != "")
     tarefas.push(input.value)
